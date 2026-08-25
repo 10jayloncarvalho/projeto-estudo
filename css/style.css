@@ -1,0 +1,26 @@
+/*resert de formatacao e um comentario*/
+/*===============
+resert global : remover os estilos padroes do navegador 
+para termos mais controle sobre o layout usamos o *
+===============*/
+*{
+    margin:0; /*remove a margen padrao*/
+    padding: 0; /*remove os espaçamentos internos*/
+    box-sizing:border-box;
+    /* facilita o calculo do tamanho dos elementos*/
+}
+
+html{  
+    /*faz com que a navegaçao por links
+    seja sauve*/
+    scroll-behavior: smooth;
+}
+
+
+body{
+    /*define a fonte principal da pagina
+    */
+    font-family: inter, arial,Arial, Helvetica, sans-serif;
+    background-color: #111827;
+    color: #fff;
+}
